@@ -35,7 +35,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        👋 欢迎来到我的个人主页
       </h1>
       <a
         target="_blank"
@@ -52,25 +52,18 @@ const homePath = getRelativeLocaleUrl(locale, "");
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
       <p class="mt-2">
-        Read the blog posts or check{" "}
-        <LinkButton
-          class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton>{" "}
-        for more info.
+        我是<b>王一凡 (Yifan Wang)</b>。毕业于北京理工大学光学工程专业（本硕博），目前在荣耀担任影像算法高级工程师，专注于<b>生成式 AI、多模态学习与风格迁移</b>等前沿技术的研究与工业落地。
+      </p>
+      <p class="mt-4">
+        在科研领域，我热衷于探索算法的理论边界，一作成果发表于 NeurIPS (CCF A) 及多篇一区 SCI 期刊；在工业界，我致力于将前沿理论转化为实际生产力，主导的生成式算法已成功落地于数百万销量的旗舰机型中。作为一名 <b>ISTP 开发者</b>，我倾向于用务实、逻辑清晰的代码去解决现实世界中的复杂问题。
+      </p>
+      <p class="mt-4">
+        这里是我长期的个人看板。未来我将在这里持续记录我在多模态与生成模型领域的<b>技术沉淀与踩坑复盘</b>，偶尔也会分享一些<b>生活随笔、摄影与个人心得</b>。
       </p>
       {
         socials.length > 0 && (
-          <div class="mt-4 flex max-sm:flex-col sm:items-center">
+          <div class="mt-6 flex max-sm:flex-col sm:items-center">
             <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
               {t.home.socialLinks}:
             </div>

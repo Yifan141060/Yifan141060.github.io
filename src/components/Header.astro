@@ -98,6 +98,15 @@ const isActive = (path: string) => {
             {t.nav.about}
           </a>
         </li>
+        <!-- 精准嵌入：新增的网页版独立 CV 页面入口 -->
+        <li class="col-span-2">
+          <a
+            href={getRelativeLocaleUrl(locale, "cv")}
+            class:list={{ "active-nav": isActive("/cv") }}
+          >
+            履历成果
+          </a>
+        </li>
         {
           features.showArchives && (
             <li class="col-span-2">
