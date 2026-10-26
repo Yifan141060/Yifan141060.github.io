@@ -29,7 +29,6 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github", url: "https://github.com" },
     { name: "mail",   url: "mailto:wyf141060@163.com" },
   ],
   shareLinks: [
