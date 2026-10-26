@@ -24,7 +24,7 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: false, // 个人主页不需要显示“建议修改”的外部链接
-      url: "https://github.com",
+      //url: "https://github.com",
     },
     search: "pagefind",
   },
