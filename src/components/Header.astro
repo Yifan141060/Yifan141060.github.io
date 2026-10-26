@@ -79,7 +79,7 @@ const isActive = (path: string) => {
             href={getRelativeLocaleUrl(locale, "posts")}
             class:list={{ "active-nav": isActive("/posts") }}
           >
-            {t.nav.posts}
+            文章
           </a>
         </li>
         <li class="col-span-2">
@@ -87,24 +87,15 @@ const isActive = (path: string) => {
             href={getRelativeLocaleUrl(locale, "tags")}
             class:list={{ "active-nav": isActive("/tags") }}
           >
-            {t.nav.tags}
+            标签
           </a>
         </li>
-        <li class="col-span-2">
-          <a
-            href={getRelativeLocaleUrl(locale, "about")}
-            class:list={{ "active-nav": isActive("/about") }}
-          >
-            {t.nav.about}
-          </a>
-        </li>
-        <!-- 精准嵌入：新增的网页版独立 CV 页面入口 -->
         <li class="col-span-2">
           <a
             href={getRelativeLocaleUrl(locale, "cv")}
             class:list={{ "active-nav": isActive("/cv") }}
           >
-            履历成果
+            关于我
           </a>
         </li>
         {
