@@ -6,15 +6,15 @@ slug: generative-ai-video-3d-parameter-field-aaai-2027
 featured: true
 draft: false
 tags:
-  - Video-Generation
+  - Style-Transfer
   - Flow-Matching
   - AAAI
-description: "成果已投稿至国际人工智能顶级会议 AAAI 2027，目前正处于审稿阶段。"
+description: "成果已投稿至人工智能顶级会议 AAAI 2027，目前正处于审稿阶段。"
 ---
 
 ## 📣 研究简介
 
-针对传统视频生成模型在移动端部署时面临的**算力开销大、时序闪烁及几何畸变**等行业瓶颈，本研究提出了可控生成算法，在隐空间中逆向生成控制整体色彩映射的三维参数场（3DLUT）。
+针对传统视频生成模型在移动端部署时面临的**算力开销大、时序闪烁及几何畸变**等行业瓶颈，本研究提出了可控生成算法，在隐空间中生成控制整体色彩映射的三维参数场（3DLUT）。
 
 - **当前状态**：**AAAI 2027 审稿中 (Rebuttal 准备中)**
 - **核心技术**：3D 参数空间生成

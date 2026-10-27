@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://Yifan141060.github.io",
     title: "王一凡", // 🚀 精准修正：让全站左上角及浏览器标签页常驻你的中文名字
-    description: "王一凡的个人主页 - 专注于生成式 AI、多模态学习与风格迁移。毕业于北京理工大学，目前从事影像算法研发。",
+    description: "王一凡的个人主页 - 专注于生成式 AI、多模态学习与风格迁移。毕业于北京理工大学,目前从事影像算法研发。",
     author: "王一凡 (Yifan Wang)",
     profile: "https://Yifan141060.github.io",
     ogImage: "default-og.jpg",
